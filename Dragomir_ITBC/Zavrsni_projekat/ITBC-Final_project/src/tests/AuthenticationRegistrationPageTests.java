@@ -54,7 +54,7 @@ public class AuthenticationRegistrationPageTests {
 		ar.fillRegisteredPasswordField("jabucica555");
 		ar.clickSignInBtn();
 
-		Assert.assertTrue(ar.invalidUserMessage.isDisplayed());
+		Assert.assertTrue(ar.authenticationFailed.isDisplayed());
 		driver.close();
 	}
 	

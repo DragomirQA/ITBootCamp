@@ -32,6 +32,9 @@ public class AuthenticationRegistrationPage {
 	
 	@FindBy(xpath = "//li[contains(text(),'Invalid password.')]")
 	public WebElement invalidPassword;
+	
+	@FindBy(xpath ="//*[@id=\"authentication\"]")
+	public WebElement authenticationFailed;
 
 	// constructor
 	public AuthenticationRegistrationPage(WebDriver driver) {

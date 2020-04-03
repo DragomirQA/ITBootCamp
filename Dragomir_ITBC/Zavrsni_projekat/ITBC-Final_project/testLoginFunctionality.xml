@@ -8,6 +8,9 @@
       		<exclude name="beforeClass"></exclude>
     		<exclude name="createNewAccount"></exclude>
       		<include name="logInUser"/>
+      		<include name="logInExistingUser"/>
+      		<include name="logInNonExistingUser"/>
+      		<include name="logInWithWrongPassword"/>
       	</methods>
       </class>
     </classes>
